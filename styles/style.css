@@ -1,0 +1,273 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 6px rgba(126, 110, 127, 0.5);
+    background: radial-gradient(circle at 10% 20%, rgb(246, 98, 128) 0%, rgb(248, 129, 135) 98.3%);
+}
+ 
+
+about-container {
+    margin: 5rem;
+    width: 80%;
+    gap: 2rem;
+}
+
+#about-page,
+.about-container {
+    display: inline flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: solid red;
+    flex-direction: row;
+}
+
+.about-content {
+    width: 100%;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.about-content p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    margin: 0;
+}
+
+.about-progress {
+    gap: 2rem;
+    border: solid white;
+}
+
+.skill-section {
+    gap: 1rem;
+}
+
+.about-progress h1 {
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.about-progress,
+.skill-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#about-page {
+    flex-direction: row;
+    width: 100%;
+}
+
+.about-bottom,
+.about-top,
+.skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bottom,
+.about-top {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    padding: 0;
+}
+
+.skill-item {
+    width: 33%;
+    flex-direction: column;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .5s;
+    font-size: 14px;
+
+}
+
+.item,
+.skill-icons {
+    display: inline flex;
+    align-items: center;
+}
+
+.item {
+    width: 33%;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .5s;
+ border: solid red;
+}
+
+.skill-icons {
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+img {
+    width: 10%;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-container,
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    color: black;
+}
+
+
+.contact-container {
+    margin-top: 5rem;
+    width: 80%;
+    row-gap: 1.5rem;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input {
+    align-items: flex-start;
+    width: 60%;
+}
+
+.btn,
+label {
+    font-weight: 600;
+}
+
+label {
+    font-size: 15px;
+    color: #fff;
+}
+
+#contact-form input {
+    height: 40px;
+    padding: 10px;
+}
+
+#contact-form input,
+textarea {
+    width: 100%;
+    background: hsla(0, 0%, 100%, .2);
+    border: none;
+    color: black border-radius: 5px;
+    font-weight: 600;
+}
+
+#contact-form,
+.form-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    row-gap: 1rem;
+    color: black;
+}
+
+#contact-form {
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-item {
+    width: 60%;
+    color: black;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-heading,
+.social-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-item {
+    flex-wrap: wrap;
+    width: 100%;
+    color: black;
+    padding: 0;
+}
+
+.social-heading {
+    justify-content: center;
+    align-items: center;
+}
+
+.social-heading,
+.social-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-item,
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    flex-direction: row;
+    /* -moz-column-gap: 1.5rem; */
+    column-gap: 1.5rem;
+    flex-wrap: wrap;
+}
