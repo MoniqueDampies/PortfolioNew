@@ -5,49 +5,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/ICONS png svg/android-chrome-512x512.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <link rel="stylesheet" href="./styles/style.css" />
+
     <title>My Portfolio</title>
 </head>
+<script src="./java.js"></script>
 
 <body>
+    <section class="homesec" id="home"></section>
     <!-- Nav bar -->
     <div class="navbar-fixed">
         <nav>
-            <div class="nav-bar">
-                <a href="#"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <div id="navbar">
+                <!-- <a href="#default" id="logo"><img src="./images/ICONS png svg/_M_D_.png" width="200%" height="200%"></a> -->
+                <div id="navbar-right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+
+                </div>
             </div>
         </nav>
     </div>
     <!-- Nav bar -->
     <!-- Header/Home/Landing -->
+
+
     <header>
         <h1>I'm Monique Dampies</h1>
-        <p>A novice freelance web developer.</p>
-        <h5>WELCOME TO MY DIGITAL PORTFOLIO</h5>
+        <h2>WELCOME TO MY DIGITAL PORTFOLIO</h2>
+        <p>A novice web developer.</p>
+
     </header>
+    <div class="zoom">
+        <img id=picture src="./images/ICONS png svg/me sitting.jpeg" alt="picture">
+
+
+    </div>
     <!-- End of Header/Home/Landing-->
     <!-- Main section/About me -->
+
+
     <main>
+        <section class="aboutsec" id="about"></section>
         <section id="about-page">
             <div class="about-container">
                 <div class="about-content">
-                    <h1>About Me</h1>
+                    <h3>About Me</h3>
                     <p>
                         I am a junior web developer and future
                         programmer based in Cape Town. I have a passion
                         for combining art with technology.
                     </p>
-                    <img src="./images/me sitting.jpeg" width="50%" height="50%">
-                    <div class="skills-icons">
+                    <!-- <img src="./images/me sitting.jpeg" width="50%" height="50%"> -->
+                    <!-- <div class="skills-icons">
                         <div class="items">
                             <img src="/images/ICONS png svg/web-pages.png">
                             <h4>Web development</h4>
@@ -59,39 +75,43 @@
                         <div class="items">
                             <img src="/images/ICONS png svg/3d-printing.png">
                             <h4>3D printing</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-progress">
-                    <h1>Skill Stack</h1>
-                    <div class="skill-section">
-                        <div class="about-top">
-                            <div class="skill-items">
-                                <img src="./images/ICONS png svg/html.png">
-                                <h5>HTML5</h5>
-                            </div>
-                            <div class="skill-items">
-                                <img src="./images/ICONS png svg/css.png">
-                                <h5>CSS3</h5>
-                            </div>
-                            <div class="skill-items">
-                                <img src="./images/ICONS png svg/c-sharp-programming-language.png">
-                                <h5>C#</h5>
-                            </div>
-                        </div>
-                        <!-- <div class="about-bottom">
-                            <div class="skill-items">
-                                <h4>placeholder</h4>
-                            </div>
-                            <div class="skill-items">
-                                <h4>placeholder</h4>
-                            </div>
-                            <div class="skill-items">
-                                <h4>placeholder</h4>
-                            </div>
                         </div> -->
-                    </div>
                 </div>
+            </div>
+            <div class="about-progress">
+                <h3>My Skills</h3>
+                <div class="skill-section">
+                    <div class="about-top">
+                        <div class="skill-items">
+                            <img src="./images/ICONS png svg/html.png">
+                            <h5>HTML5</h5>
+                        </div>
+                        <div class="skill-items">
+                            <img src="./images/ICONS png svg/css.png">
+                            <h5>CSS3</h5>
+                        </div>
+                        <div class="skill-items">
+                            <img src="./images/ICONS png svg/c-sharp-programming-language.png">
+                            <h5>C#</h5>
+                        </div>
+
+                        <!-- <div class="about-bottom"> -->
+                        <div class="skill-items">
+                            <img src="/images/ICONS png svg/3d-printing.png">
+                            <h5>3D printing</h5>
+                        </div>
+                        <div class="skill-items">
+                            <img src="/images/ICONS png svg/web-pages.png">
+                            <h5>Web development</h5>
+                        </div>
+                        <div class="skill-items">
+                            <img src="/images/ICONS png svg/web-page-source-code.png">
+                            <h5>Programming</h5>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
             </div>
         </section>
         <!-- Skills section -->
@@ -106,81 +126,117 @@
                 recusandae fugit hic omnis ex sed vitae.
             </p>
         </section> -->
+        </section>
         <!-- End of Skills section -->
         <!-- Testimonials section -->
-        <section>
-            <h3>Testimonials</h3>
-            <p>
+        <section class="resume" id="resume">
+            <h3>My Resume</h3>
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h6>2022</h6>
+                        <p>My journey with Life Choices Academy and software developments begins..</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h6>2021</h6>
+                        <p>I joined a course which revolved aeound upskilling youth with 4th industrial revolution
+                            skills. We completed Microsoft Software Fundamentals and digital literacy, drone technology
+                            and building with Brighter Futures tuitions, introduction to 4IR through the University of
+                            Johannesburg, 3D printing and SEDA entrepreneurial training course.</p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h6>2020</h6>
+                        <p>Started my first job as a Claims Handler for a BPO call center. My responsibility was to take
+                            inbound calls from policyholders notifying us about a loss they've expireinced. I would go
+                            through the claim process with them and provide/retrieve all information necessary.</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h6>2015</h6>
+                        <p>I attended the prestigious Mondale High School, where my subjects pertained to the commerce
+                            industry. I completed my matric with a bachelors pass.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, eum
                 excepturi amet porro nulla repellendus accusamus quia iusto atque
                 voluptas. Delectus, unde optio corporis dignissimos consequatur
                 molestiae distinctio rem at.
-            </p>
+            </p> -->
         </section>
         <!-- End of Testimonials section-->
     </main>
     <!-- End of Main/About me -->
     <!-- Projects -->
-    <section>
-        <h2>My Projects</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            laboriosam, exercitationem architecto perferendis ab consequuntur fugit
-            molestias cupiditate est maiores aliquid cum eligendi eaque obcaecati
-            error distinctio ratione. Ex, rem!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ea debitis consectetur, qui eos quia
-            voluptates, officia dolores nesciunt consequatur numquam illum deleniti quos suscipit eligendi molestias et
-            excepturi odit!
-        </p>
-    </section>
+    <section class="projectssec" id="projects"> </section>
+    <h2>My Projects</h2>
+    <button class="collapsible">Calculator</button>
+    <div class="collapse">
+        <img src="./images/calculator.jpg">
+    </div>
+    <button class="collapsible">Holiday destination</button>
+    <div class="collapse">
+        <img src="./images/holiday.jpg">
+    </div>
+    <button class="collapsible">Group assignment</button>
+    <div class="content">
+        <img src="./images/groupsite.jpg">
+    </div>
+
     <!--End of Projects -->
     <!-- Contact me/social media -->
-    <section>
-        <footer id="contact-page">
-            <div class="contact-container">
-                <div class="contact-item">
-                    <div class="contact-heading">
-                        <h3>Contact me</h3>
-                        <p>
-                            Let's get in touch.
-                        </p>
-
-                    </div>
-                    <div class="form">
-                        <form id="contact-form" target="_blank">
-                            <div class="form-input">
-                                <label>Name</label>
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="form-input">
-                                <label>E-mail</label>
-                                <input type="email" placeholder="Email" name="_replyto" required>
-                            </div>
-                            <div class="form-input">
-                                <label>Message</label>
-                                <input type="textarea" placeholder="Message" required>
-                            </div>
-                            <button type="submit" class="btn">send message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="social-item">
-                <div class="social-heading">
-                    <h3>FOLLOW ME</h3>
-                </div>
-                <div class="social-icons">
-                    <a><img src="/images/ICONS png svg/github.png"></a>
-                    <a><img src="/images/ICONS png svg/codepen.png"></a>
-                    <a><img src="/images/ICONS png svg/ig-instagram.png"></a>
+    <section class="contactsec" id="contact"></section>
+    <footer id="contact-page">
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-heading">
+                    <h3>Contact me</h3>
+                    <p>
+                        Let's get in touch.
+                    </p>
 
                 </div>
+                <div class="form">
+                    <form id="contact-form" target="_blank" action="https://formspree.io/f/xvolwjjo" method="POST">
+                        <div class="form-input">
+                            <label>Name</label>
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-input">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="Email" name="_replyto" required>
+                        </div>
+                        <div class="form-input">
+                            <label>Message</label>
+                            <!-- <input type="textarea" placeholder="Message" required> -->
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                        <button type="submit" class="btn">send message</button>
+                    </form>
+                </div>
             </div>
-            <div class="copyright">
-                <h6> Copyright &copy; 2022 Monique Dampies</h6>
+        </div>
+        <div class="social-item">
+            <div class="social-heading">
+                <h3>FOLLOW ME</h3>
             </div>
-
-        </footer>
+            <div class="social-icons">
+                <a href="https://github.com/MoniqueDampies"><img src="/images/ICONS png svg/github.png"></a>
+                <a><img src="/images/ICONS png svg/codepen.png"></a>
+                <a><img src="/images/ICONS png svg/ig-instagram.png"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <h6> Copyright &copy; 2022 Monique Dampies</h6>
+        </div>
+    </footer>
 
 </body>
 
